@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>文件列表</title>
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.2/css/all.css" rel="stylesheet">
+    <style>
+        %s
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!--   顶部标题     -->
+        <h2 id="title">%s</h2>
+        <ul id="container">
+        <!--        返回上层    -->
+            <li><i class="fa fa-undo fa-2x" aria-hidden="true"></i> <a href="../">上层目录</a></li>
+            <!--      渲染列表      -->
+            %s
+        </ul>
+    </div>
+</body>
+</html>
